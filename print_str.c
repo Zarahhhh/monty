@@ -2,7 +2,7 @@
 
 /**
  * print_str - prints string starting at top of the stack
- * @stack: double pointer to the top of stack.
+ * @queues: double pointer to the top of stack.
  * @line_number: current line number of the opcode in the Monty file
  */
 

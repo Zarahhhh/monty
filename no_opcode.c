@@ -2,7 +2,7 @@
 
 /**
  * op_nothing - does nothing
- * @stack: The pointer to the top of the stack
+ * @queues: The pointer to the top of the stack
  * @line_number: line number
  **/
 
