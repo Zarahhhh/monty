@@ -30,20 +30,20 @@ typedef struct global_s
 extern glob_t glob;
 
 /**
- * struct queues_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
  * Description: doubly linked list node structure for stack, queues, LIFO, FIFO
  */
 
-typedef struct queues_s
+typedef struct stack_s
 
 {
 	int n;
-	struct queues_s *prev;
-	struct queues_s *next;
-} queues_t;
+	struct stack_s *prev;
+	struct stack_s *next;
+} stack_t;
 
 /**
  * struct instruction_s - opcode and its function
